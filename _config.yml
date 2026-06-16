@@ -1,0 +1,28 @@
+# Jekyll Configuration for Portfolio
+title: My Graphic Design Portfolio
+description: Showcase of graphic design work
+baseurl: ""
+url: "https://kforshee15.github.io/Portfolio"
+
+# Theme
+theme: minima
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections for portfolio items
+collections:
+  portfolio:
+    output: true
+    permalink: /portfolio/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: portfolio_item
