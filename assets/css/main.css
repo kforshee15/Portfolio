@@ -1,0 +1,53 @@
+/* Color Palette */
+:root {
+  --color-dark-teal:  #1F3937;
+  --color-warm-cream: #F1DEC3;
+  --color-black:      #000000;
+}
+
+/* Header Styles */
+
+.site-header {
+  background-color: var(--color-warm-cream); /* Adjust banner background color */
+  border-bottom: 1px solid var(--color-black); /* Optional: adds a subtle border */
+  padding: 1rem 0;
+}
+
+.site-header .header-container {
+  display: flex;
+  justify-content: space-between; /* Pushes logo left, nav right */
+  align-items: center;            /* Centers items vertically */
+  max-width: 1200px;              /* Keeps content from stretching too far */
+  margin: 0 auto;                 /* Centers the container on the screen */
+  padding: 0 20px;
+}
+
+.site-header .header-logo .logo-img {
+  max-height: 50px; /* Restricts logo size */
+  width: auto;
+  display: block;
+}
+
+.site-header .header-nav .nav-list {
+  display: flex;
+  gap: 2rem;       /* Space between the two links */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header .header-nav .nav-link {
+  text-decoration: none;
+  color: #333333;
+  font-weight: 500;
+  transition: color 0.2s ease-in-out;
+}
+
+.site-header .header-nav .nav-link:hover {
+  color: #0056b3; /* Hover state for links */
+}
+
+.page-content {
+  padding: 2rem 0;
+  text-align: center;
+}
