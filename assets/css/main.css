@@ -18,6 +18,7 @@
   justify-content: space-between; /* Pushes logo left, nav right */
   align-items: center;            /* Centers items vertically */
   max-width: 1200px;              /* Keeps content from stretching too far */
+  height: 110px;              /* Restricts header height */
   margin: 0 auto;                 /* Centers the container on the screen */
   padding: 0 20px;
 }
