@@ -62,8 +62,8 @@
    ========================================================================== */
 
 .site-footer {
-  /* The beige background color from your mockup */
-  background-color: #EBE1D3; 
+  /* Match the homepage cream background */
+  background-color: var(--color-warm-cream);
   padding: 4rem 2rem;
   color: #333333;
   /* Default font for the footer (sans-serif for the small text and links) */
@@ -78,7 +78,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 3rem;
 }
 
@@ -150,7 +150,7 @@
 .footer-nav-section {
   display: flex;
   gap: 4rem; /* Wide spacing between the columns */
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   margin-left: auto; /* Push nav columns group to the right side */
   justify-content: flex-end;
 }
