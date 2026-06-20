@@ -151,6 +151,8 @@
   display: flex;
   gap: 4rem; /* Wide spacing between the columns */
   flex-wrap: wrap;
+  margin-left: auto; /* Push nav columns group to the right side */
+  justify-content: flex-end;
 }
 
 .footer-column {
@@ -199,6 +201,7 @@
   .footer-nav-section {
     gap: 2.5rem;
     width: 100%;
+    margin-left: 0;
     justify-content: space-between; /* Spreads columns evenly on tablets */
   }
 }
