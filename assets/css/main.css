@@ -76,14 +76,16 @@ body {
 .about-container {
   display: flex;
   align-items: center;
-  gap: 4rem;
-  max-width: 1200px;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 900px;
   margin: 0 auto;
   padding: 4rem 2rem;
 }
 
 .about-text {
   flex: 1;
+  min-width: 0;
 }
 
 .about-text h1 {
@@ -91,13 +93,14 @@ body {
 }
 
 .about-image {
-  flex: 1;
+  flex-shrink: 0;
   display: flex;
   justify-content: center;
 }
 
 .about-image img {
-  max-width: 100%;
+  max-width: 320px;
+  width: 100%;
   height: auto;
   display: block;
 }
