@@ -5,7 +5,7 @@ My graphic design work portfolio built with Jekyll.
 ## Getting Started
 
 ### Prerequisites
-- Ruby 2.7 or higher
+- Ruby 3.1 or higher
 - Bundler (`gem install bundler`)
 
 ### Installation
