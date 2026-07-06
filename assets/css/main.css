@@ -53,7 +53,9 @@
   text-align: center;
 }
 
-.home-page {
+.home-page,
+.about-page,
+.portfolio-page {
   background-color: var(--color-warm-cream);
 }
 
