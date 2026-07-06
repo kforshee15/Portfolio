@@ -9,12 +9,11 @@
 
     <nav class="header-nav">
       <ul class="nav-list">
+        {% for item in site.data.navigation %}
         <li class="nav-item">
-          <a href="{{ '/kits/' | relative_url }}" class="nav-link">Kits</a>
+          <a href="{{ item.url | relative_url }}" class="nav-link">{{ item.title }}</a>
         </li>
-        <li class="nav-item">
-          <a href="{{ '/about/' | relative_url }}" class="nav-link">About</a>
-        </li>
+        {% endfor %}
       </ul>
     </nav>
     
