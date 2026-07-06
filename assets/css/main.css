@@ -5,6 +5,11 @@
   --color-black:      #000000;
 }
 
+body {
+  background-color: var(--color-warm-cream);
+  margin: 0;
+}
+
 /* Header Styles */
 
 .site-header {
