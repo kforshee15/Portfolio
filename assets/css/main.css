@@ -260,3 +260,91 @@ body {
     gap: 2rem;
   }
 }
+
+/* ==========================================================================
+   Home Page – Portfolio Grid (Frames 14–21)
+   ========================================================================== */
+
+.home-portfolio {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 3rem 2rem 4rem;
+}
+
+.portfolio-page-header {
+  margin-bottom: 2rem;
+}
+
+.portfolio-page-title {
+  font-size: 1.85rem;
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+.portfolio-page-title em {
+  display: block;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* 4-column grid */
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.75rem 1.5rem;
+}
+
+.portfolio-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-card-link {
+  display: block;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.portfolio-card-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  background-color: #d9cfc4; /* visible placeholder until images are added */
+  transition: transform 0.25s ease;
+}
+
+.portfolio-card-link:hover .portfolio-card-image {
+  transform: scale(1.03);
+}
+
+.portfolio-card-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.35;
+  margin: 0.7rem 0 0.35rem;
+  color: var(--color-black);
+}
+
+.portfolio-card-desc {
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: #555555;
+  margin: 0;
+}
+
+/* Responsive – 2 columns on tablet */
+@media (max-width: 850px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Responsive – 1 column on mobile */
+@media (max-width: 500px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+}
