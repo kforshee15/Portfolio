@@ -95,7 +95,7 @@ body {
 }
 
 .about-text {
-  flex: 1;
+  flex: 1 1 0;
   min-width: 0;
 }
 
@@ -104,16 +104,30 @@ body {
 }
 
 .about-image {
-  flex-shrink: 0;
+  flex: 0 1 280px;
+  min-width: 120px;
   display: flex;
   justify-content: center;
 }
 
 .about-image img {
-  max-width: 320px;
+  max-width: 100%;
   width: 100%;
   height: auto;
   display: block;
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    flex-direction: column;
+    padding: 2rem 1.25rem;
+  }
+
+  .about-image {
+    flex: none;
+    width: 60%;
+    max-width: 220px;
+  }
 }
 
 /* ==========================================================================
