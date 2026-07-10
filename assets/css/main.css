@@ -268,10 +268,11 @@ body {
 .home-portfolio {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 3rem 2rem 4rem;
+  padding: 0rem 2rem 4rem;
 }
 
 .portfolio-page-header {
+
   margin-bottom: 2rem;
   text-align: left;
 }
