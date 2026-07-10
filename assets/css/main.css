@@ -124,6 +124,7 @@ body {
   }
 
   .about-image {
+    order: -1;
     flex: none;
     width: 60%;
     max-width: 220px;
