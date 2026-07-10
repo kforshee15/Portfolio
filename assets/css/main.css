@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+/* Costaline – place your font file at assets/fonts/Costaline.woff2 (and .woff) */
+@font-face {
+  font-family: 'Costaline';
+  src: url('/assets/fonts/Costaline.woff2') format('woff2'),
+       url('/assets/fonts/Costaline.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 /* Color Palette */
 :root {
@@ -278,17 +289,16 @@ body {
 }
 
 .portfolio-page-title {
+  font-family: 'Costaline', 'Lora', sans-serif;
   font-size: 1.85rem;
-  font-weight: 600;
+  font-weight: normal;
   line-height: 1.15;
   margin: 0;
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
 }
 
-.portfolio-page-title em {
+.portfolio-page-title span {
   display: block;
-  font-style: italic;
-  font-weight: 400;
 }
 
 /* 4-column grid */
