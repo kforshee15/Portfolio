@@ -4,4 +4,5 @@ body_class: home-page
 show_footer: true
 ---
 
-# Kendra Bettencourt Designs
+# Kendra Bettencourt
+*Design*
