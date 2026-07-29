@@ -5,6 +5,11 @@
   background-repeat: no-repeat;
 }
 
+.harlem-page .page-content,
+.harlem-page .page-content * {
+  color: #ffffff;
+}
+
 /* Container setup */
 .portfolio-layout {
   display: flex;
