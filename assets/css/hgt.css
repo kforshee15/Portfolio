@@ -1,6 +1,6 @@
 .harlem-page .page-content {
   background-image: url('/assets/images/icons/HarlemBackground.png');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -23,16 +23,16 @@
 
 /* Desktop Layout (Offset Rows) */
 .portfolio-layout .box-1 {
-  flex: 0 0 calc(30% - 8px);
+  flex: 0 0 calc(40% - 8px);
 }
 .portfolio-layout .box-2 {
-  flex: 0 0 calc(70% - 8px);
+  flex: 0 0 calc(60% - 8px);
 }
 .portfolio-layout .box-3 {
-  flex: 0 0 calc(70% - 8px);
+  flex: 0 0 calc(60% - 8px);
 }
 .portfolio-layout .box-4 {
-  flex: 0 0 calc(30% - 8px);
+  flex: 0 0 calc(40% - 8px);
 }
 
 /* Mobile Layout (Stacked) */
@@ -43,4 +43,11 @@
   .portfolio-layout .box-4 {
     flex: 0 0 100%;
   }
+}
+
+/* Makes images scale down to fit inside their flex boxes */
+.portfolio-box img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Removes the tiny default gap below images */
 }
