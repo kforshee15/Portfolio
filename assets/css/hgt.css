@@ -1,8 +1,9 @@
 .harlem-page .page-content {
   background-image: url('/assets/images/icons/HarlemBackground.png');
-  background-size: 120% auto;
+  background-size: 120% 100%;
   background-position: top center;
   background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 .harlem-page .page-content,
@@ -15,7 +16,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: 16px; 
-  margin-top: 40px; /* Adds breathing room below your hero image */
 }
 
 /* Base styles for the boxes */
