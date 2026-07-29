@@ -15,7 +15,7 @@
 
 /* Base styles for the boxes */
 .portfolio-box {
-  background-color: #f9f9f9; /* Optional: placeholder background */
+  background-color: transparent;
   padding: 20px;
   box-sizing: border-box; /* Crucial so padding doesn't alter the flex percentages */
   border-radius: 8px; /* Optional: softer corners */
