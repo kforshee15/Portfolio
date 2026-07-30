@@ -5,28 +5,32 @@ My graphic design work portfolio built with Jekyll.
 ## Getting Started
 
 ### Prerequisites
+
 - Ruby 3.1 or higher
 - Bundler (`gem install bundler`)
 
 ### Installation
 
 1. Clone the repository
+
 ```bash
 git clone https://github.com/kforshee15/Portfolio.git
 cd Portfolio
 ```
 
-2. Install dependencies
+1. Install dependencies
+
 ```bash
 bundle install
 ```
 
-3. Run the local server
+1. Run the local server
+
 ```bash
 bundle exec jekyll serve
 ```
 
-4. Open your browser to `http://localhost:4000`
+1. Open your browser to `http://localhost:4000`
 
 ## Structure
 
