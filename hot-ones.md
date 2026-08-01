@@ -10,5 +10,5 @@ custom_css: hot-ones
 </div>
 **Limited Edition Summer 2024 drop** 
  
-    Had the pleasure of working with the teams at FirstWeFeast and 
-    Avery Dennison to produce this limited edition hoodie drop featuring twill with chenille.
+Had the pleasure of working with the teams at FirstWeFeast and 
+Avery Dennison to produce this limited edition hoodie drop featuring twill with chenille.
