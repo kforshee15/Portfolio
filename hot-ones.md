@@ -8,7 +8,9 @@ custom_css: hot-ones
 <div class="hot-ones-header">
   <img src="{{ '/assets/images/hot-ones-header.png' | relative_url }}" alt="Hot Ones Header" />
 </div>
+
 **Limited Edition Summer 2024 drop** 
+ 
  
  
 Had the pleasure of working with the teams at FirstWeFeast and 
