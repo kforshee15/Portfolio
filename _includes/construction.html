@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website</title>
+    <style>
+        /* Ensures the page content isn't hidden behind the banner */
+        body {
+            margin: 0;
+            padding-top: 80px; 
+            font-family: sans-serif;
+        }
+
+        /* The sticky banner container with warning stripes */
+        .construction-banner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 80px;
+            /* Yellow and black diagonal stripes */
+            background: repeating-linear-gradient(
+                45deg,
+                #000000,
+                #000000 20px,
+                #FFD700 20px,
+                #FFD700 40px
+            );
+            z-index: 9999; /* Keeps the banner above all other content */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        /* The readable sign in the center */
+        .construction-text {
+            background-color: #FFD700; /* Solid construction yellow */
+            color: #000000;
+            font-family: 'Arial Black', Impact, sans-serif;
+            font-size: 24px;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding: 5px 25px;
+            border: 4px solid #000000;
+            border-radius: 5px;
+            box-shadow: inset 0 0 0 2px #FFD700, 0 0 5px rgba(0,0,0,0.8);
+        }
+
+        /* Optional: Scales the text down for mobile screens */
+        @media (max-width: 600px) {
+            .construction-text {
+                font-size: 16px;
+                padding: 5px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Construction Banner HTML -->
+    <div class="construction-banner">
+        <div class="construction-text">
+            🚧 Site Under Construction 🚧
+        </div>
+    </div>
+
+    <!-- Your normal website content goes here -->
+    <div style="padding: 20px;">
+        <h1>Welcome to my site</h1>
+        <p>Scroll down to see the banner stay at the top!</p>
+        <!-- Adding some space to demonstrate the scroll effect -->
+        <div style="height: 1500px; background: linear-gradient(#eee, #ccc);"></div>
+    </div>
+
+</body>
+</html>
