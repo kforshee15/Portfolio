@@ -30,10 +30,15 @@
 .hot-ones-grid-item {
   background-color: #b0a898;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
-  min-height: 200px;
   font-size: 1rem;
+}
+
+.hot-ones-grid-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 @media (max-width: 600px) {
