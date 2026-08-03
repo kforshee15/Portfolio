@@ -1,5 +1,10 @@
 .m-and-m-page .page-content {
   background-color: #d9cfc4; /* visible placeholder until images are added */
+  background-image: url('/assets/images/backgrounds/HarlemBackground.png');
+  background-size: 110% 100%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 .m-and-m-header {
