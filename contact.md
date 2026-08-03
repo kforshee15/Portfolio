@@ -1,3 +1,7 @@
+---
+layout: default
+title: "Contact"
+---
 Wanting to get in touch? Fill out the form below and we will get back to you as soon as possible.
 
 <form class="lead-form" action="https://formspree.io/f/xeevrpdy" method="POST">

@@ -1,3 +1,7 @@
+---
+layout: default
+title: "Support"
+---
 ### Crafted by Bettencourt Web Designs
 
 **UI / UX Design** — Kendra Bettencourt  
