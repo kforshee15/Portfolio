@@ -1,0 +1,57 @@
+.hyperx-page .page-content {
+  background-color: #d9cfc4; /* visible placeholder until images are added */
+}
+
+.hyperx-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 0 1rem;
+}
+
+.hyperx-header img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+p {
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.hyperx-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: end;
+  gap: 1rem;
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.hyperx-grid-item {
+  background-color: #F1DEC3;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.hyperx-grid-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .hyperx-grid {
+    grid-template-columns: 1fr;
+  }
+}
