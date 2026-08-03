@@ -1,0 +1,57 @@
+.m-and-m-page .page-content {
+  background-color: #d9cfc4; /* visible placeholder until images are added */
+}
+
+.m-and-m-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 0 1rem;
+}
+
+.m-and-m-header img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.m-and-m-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: end;
+  gap: 1rem;
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.m-and-m-grid-item {
+  background-color: #d9cfc4;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.m-and-m-grid-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .m-and-m-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+p {
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
