@@ -25,10 +25,6 @@ body {
   color: var(--color-black);
 }
 
-* {
-  font-family: 'Inter', sans-serif;
-}
-
 /* Header Styles */
 
 .site-header {
