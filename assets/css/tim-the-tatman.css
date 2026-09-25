@@ -1,0 +1,138 @@
+.tim-the-tatman-page .page-content {
+  background-color: #d9cfc4; /* visible placeholder until images are added */
+}
+
+.tim-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 0 1rem;
+}
+
+.tim-header img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+p {
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.tim-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "i1 i2 i3 i4"
+    "i5 ic ic i6";
+  align-items: center;
+  gap: 1rem;
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.tim-item-1 { grid-area: i1; }
+.tim-item-2 { grid-area: i2; }
+.tim-item-3 { grid-area: i3; }
+.tim-item-4 { grid-area: i4; }
+.tim-item-5 { grid-area: i5; }
+.tim-item-6 { grid-area: i6; }
+
+.tim-grid-item {
+  background-color: #F1DEC3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.tim-grid-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* the round logo artwork sits in the middle of the collection, larger than the rest */
+.tim-circle {
+  grid-area: ic;
+  background-color: transparent;
+}
+
+.tim-circle img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.tim-detail-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.tim-detail-item {
+  background-color: #F1DEC3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tim-detail-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .tim-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "i1 i2"
+      "i3 i4"
+      "i5 i6"
+      "ic ic";
+  }
+
+  .tim-circle img {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+
+  .tim-detail-strip {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .tim-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "i1"
+      "i2"
+      "i3"
+      "i4"
+      "i5"
+      "ic"
+      "i6";
+  }
+
+  .tim-circle img {
+    max-width: 60%;
+  }
+
+  .tim-detail-strip {
+    grid-template-columns: 1fr;
+  }
+}
