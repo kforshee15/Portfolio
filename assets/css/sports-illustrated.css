@@ -1,0 +1,76 @@
+.siwg-page .page-content {
+  background-color: #1e1e1e;
+  min-height: 100vh;
+}
+
+.siwg-header {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.siwg-header img {
+  max-width: 1000px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.siwg-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 3rem;
+  color: #ffffff;
+  text-align: left;
+}
+
+.siwg-sport {
+  margin-bottom: 2.5rem;
+}
+
+.siwg-sport h2 {
+  color: #d8d4dc;
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin: 0 0 1rem;
+}
+
+.siwg-row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.siwg-main {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.siwg-flats {
+  flex: 0 0 34%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.siwg-main img,
+.siwg-flats img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .siwg-row {
+    flex-direction: column;
+  }
+
+  .siwg-flats {
+    flex-basis: auto;
+    width: 100%;
+  }
+}
