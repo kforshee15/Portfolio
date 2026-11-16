@@ -14,14 +14,14 @@ custom_css: coca-cola
   <p>Concepts I designed for Champion and Coca-Cola's various 2026 concept collections.</p>
 
   <div class="cc-grid">
-    <div class="cc-tile cc-tile-1"><img src="{{ '/assets/images/Rectangle 68.png' | relative_url }}" alt="Concept 1" /></div>
-    <div class="cc-tile cc-tile-2"><img src="{{ '/assets/images/Rectangle 69.png' | relative_url }}" alt="Concept 2" /></div>
-    <div class="cc-tile cc-tile-3"><img src="{{ '/assets/images/Rectangle 68.png' | relative_url }}" alt="Concept 3" /></div>
-    <div class="cc-tile cc-tile-4"><img src="{{ '/assets/images/Rectangle 69.png' | relative_url }}" alt="Concept 4" /></div>
-    <div class="cc-tile cc-tile-5"><img src="{{ '/assets/images/Rectangle 69.png' | relative_url }}" alt="Concept 5" /></div>
-    <div class="cc-tile cc-tile-6"><img src="{{ '/assets/images/Rectangle 68.png' | relative_url }}" alt="Concept 6" /></div>
-    <div class="cc-tile cc-tile-7"><img src="{{ '/assets/images/Rectangle 68.png' | relative_url }}" alt="Concept 7" /></div>
-    <div class="cc-tile cc-tile-8"><img src="{{ '/assets/images/Rectangle 69.png' | relative_url }}" alt="Concept 8" /></div>
+    <div class="cc-tile cc-tile-1"><img src="{{ '/assets/images/coke005.png' | relative_url }}" alt="Champion authentic apparel jock tag" /></div>
+    <div class="cc-tile cc-tile-2 cc-dark"><img src="{{ '/assets/images/coke006.png' | relative_url }}" alt="Coca-Cola Classic with Champion logo" /></div>
+    <div class="cc-tile cc-tile-3"><img src="{{ '/assets/images/coke002.png' | relative_url }}" alt="Champion arched wordmark above a Coca-Cola bottle" /></div>
+    <div class="cc-tile cc-tile-4 cc-dark"><img src="{{ '/assets/images/coke004.png' | relative_url }}" alt="Champion and Coca-Cola logos" /></div>
+    <div class="cc-tile cc-tile-5 cc-dark"><img src="{{ '/assets/images/coke001.png' | relative_url }}" alt="Coca-Cola, Champion and Coke pennants" /></div>
+    <div class="cc-tile cc-tile-6"><img src="{{ '/assets/images/coke007.png' | relative_url }}" alt="Champion authentic Coca-Cola athletic club" /></div>
+    <div class="cc-tile cc-tile-7"><img src="{{ '/assets/images/coke003.png' | relative_url }}" alt="Coca-Cola and Champion 2026 authentic athletic apparel label" /></div>
+    <div class="cc-tile cc-tile-8 cc-dark"><img src="{{ '/assets/images/coke008.png' | relative_url }}" alt="Coca-Cola polar bear Champion Athletic Club" /></div>
     <div class="cc-bear"><img src="{{ '/assets/images/CocaCola_Symbole_Editing.png' | relative_url }}" alt="Coca-Cola polar bear wearing Champion" /></div>
   </div>
 </section>
