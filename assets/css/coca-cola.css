@@ -1,5 +1,5 @@
 .coca-cola-page .page-content {
-  background-color: #F1DEC3;
+  background-color: var(--color-warm-cream);
 }
 
 .cc-header {

@@ -42,7 +42,7 @@ p {
 }
 
 .cobra-kai-grid-item {
-  background-color: #F1DEC3;
+  background-color: var(--color-warm-cream);
   display: flex;
   align-items: flex-end;
   justify-content: center;

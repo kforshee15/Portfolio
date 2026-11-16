@@ -1,5 +1,5 @@
 .hot-ones-page .page-content {
-  background-color: #d9cfc4; /* visible placeholder until images are added */
+  background-color: var(--color-warm-cream);
 }
 
 .hot-ones-header {
@@ -28,7 +28,7 @@
 }
 
 .hot-ones-grid-item {
-  background-color: #d9cfc4;
+  background-color: var(--color-warm-cream);
   display: flex;
   align-items: flex-end;
   justify-content: center;

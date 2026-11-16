@@ -334,7 +334,7 @@ body {
   aspect-ratio: 1 / 1;
   object-fit: cover;
   display: block;
-  background-color: #d9cfc4; /* visible placeholder until images are added */
+  background-color: var(--color-warm-cream);
   transition: transform 0.25s ease;
 }
 
