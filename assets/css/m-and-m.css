@@ -1,4 +1,5 @@
-.m-and-m-page .page-content {
+.m-and-m-page .page-content,
+.project.m-and-m-page {
   background-image: url('/assets/images/backgrounds/HarlemBackground.png');
   background-size: 110% 100%;
   background-position: top center;
@@ -21,37 +22,7 @@
   display: block;
 }
 
-.m-and-m-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: end;
-  gap: 1rem;
-  max-width: 960px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
-
-.m-and-m-grid-item {
-  background-color: var(--color-warm-cream);
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  font-size: 1rem;
-}
-
-.m-and-m-grid-item img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-@media (max-width: 600px) {
-  .m-and-m-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-p {
+.m-and-m-page p {
   text-align: left;
   font-size: 1.2rem;
   line-height: 1.6;

@@ -1,4 +1,5 @@
-.siwg-page .page-content {
+.siwg-page .page-content,
+.project.siwg-page {
   background-color: #1e1e1e;
   min-height: 100vh;
 }

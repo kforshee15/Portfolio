@@ -1,4 +1,5 @@
-.cobra-kai-page .page-content {
+.cobra-kai-page .page-content,
+.project.cobra-kai-page {
   background-image: url('/assets/images/backgrounds/HarlemBackground.png');
   background-size: 110% 100%;
   background-position: top center;
@@ -21,7 +22,7 @@
   display: block;
 }
 
-p {
+.cobra-kai-page p {
   text-align: left;
   font-size: 1.2rem;
   line-height: 1.6;
@@ -29,34 +30,4 @@ p {
   margin: 0 auto;
   padding: 0 1rem;
   color: white;
-}
-
-.cobra-kai-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: end;
-  gap: 1rem;
-  max-width: 960px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
-
-.cobra-kai-grid-item {
-  background-color: var(--color-warm-cream);
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  font-size: 1rem;
-}
-
-.cobra-kai-grid-item img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
-@media (max-width: 600px) {
-  .cobra-kai-grid {
-    grid-template-columns: 1fr;
-  }
 }

@@ -374,3 +374,65 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* Image gallery: each row's images share one height and fill the row, so there are no gaps */
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.gallery-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.gallery-row > div {
+  flex: var(--r) 1 0;
+  min-width: 0;
+}
+
+.gallery-row img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .gallery-row {
+    flex-direction: column;
+  }
+
+  .gallery-row > div {
+    flex: none;
+  }
+}
+
+/* Portfolio page: the home grid, every project page and the about section stacked in one scroll */
+.portfolio-page .page-content {
+  padding: 0;
+}
+
+.project {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+body.portfolio-page .project {
+  min-height: 0;
+  background-image: none;
+}
+
+/* the dark pages use a feathered background image; flatten it so stacked sections join seamlessly */
+body.portfolio-page .project.harlem-page,
+body.portfolio-page .project.cobra-kai-page,
+body.portfolio-page .project.m-and-m-page {
+  background-color: #1d1b18;
+}
+
+body.portfolio-page .project.about-page {
+  padding: 0;
+}

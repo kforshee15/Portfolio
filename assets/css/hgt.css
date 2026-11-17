@@ -1,4 +1,5 @@
-.harlem-page .page-content {
+.harlem-page .page-content,
+.project.harlem-page {
   background-image: url('/assets/images/backgrounds/HarlemBackground.png');
   background-size: 110% 100%;
   background-position: top center;
@@ -7,7 +8,9 @@
 }
 
 .harlem-page .page-content,
-.harlem-page .page-content * {
+.harlem-page .page-content *,
+.project.harlem-page,
+.project.harlem-page * {
   color: #ffffff;
   text-align: left;
 }
@@ -58,8 +61,14 @@
   display: block; /* Removes the tiny default gap below images */
 }
 
-.portfolio-page-title {
-  text-align: left;
+/* keeps the portrait photo from making the last row far taller than its neighbor */
+.portfolio-layout .box-4 img {
+  max-height: 520px;
+  width: auto;
+  margin-left: auto;
+}
+
+.harlem-page .portfolio-page-title {
   margin-left: 2rem;
   font-size: 2rem;
   color: #ffffff;

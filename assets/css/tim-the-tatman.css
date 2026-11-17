@@ -1,4 +1,5 @@
-.tim-the-tatman-page .page-content {
+.tim-the-tatman-page .page-content,
+.project.tim-the-tatman-page {
   background-color: var(--color-warm-cream);
 }
 

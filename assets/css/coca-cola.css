@@ -1,4 +1,5 @@
-.coca-cola-page .page-content {
+.coca-cola-page .page-content,
+.project.coca-cola-page {
   background-color: var(--color-warm-cream);
 }
 
