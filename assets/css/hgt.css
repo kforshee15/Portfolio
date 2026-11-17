@@ -19,7 +19,9 @@
 .portfolio-layout {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px; 
+  gap: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 /* Base styles for the boxes */
